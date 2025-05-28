@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig.json",
+  "extends": [
+    "../common/base.json",
+    "../common/bundler.json",
+    "../common/references.json",
+    "../common/web.json"
+  ],
+  "compilerOptions": {
+    "tsBuildInfoFile": "../../../../.tmp/moonlight.web.tsbuildinfo"
+  },
+  "include": [
+    "../../src/env/web.ts",
+    "../../../../../src/*/web/**/*",
+    "../../../../../src/*/index.ts",
+    "../../../../../src/*/index.js",
+    "../../../../../src/*/preload-browser/**/*",
+    "../../../../../src/*/preload.browser.ts",
+    "../../../../../src/*/preload.browser.js"
+  ]
+}

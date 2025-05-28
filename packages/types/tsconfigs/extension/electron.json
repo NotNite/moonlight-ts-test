@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig.json",
+  "extends": [
+    "../common/base.json",
+    "../common/bundler.json",
+    "../common/references.json",
+    "../common/node.json"
+  ],
+  "compilerOptions": {
+    "tsBuildInfoFile": "../../../../.tmp/moonlight.electron.tsbuildinfo"
+  },
+  "include": [
+    "../../src/env/electron.ts",
+    "../../../../../src/*/electron/**/*",
+    "../../../../../src/*/electron.ts",
+    "../../../../../src/*/electron.js"
+  ]
+}

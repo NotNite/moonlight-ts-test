@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+
+    // See README for details
+    "rootDir": "../../../../../../../../..",
+    "baseUrl": "../../../../../../../../..",
+
+    // Do not import all @types/* packages by default
+    "types": []
+  }
+}

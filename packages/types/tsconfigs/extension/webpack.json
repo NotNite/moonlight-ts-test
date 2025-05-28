@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig.json",
+  "extends": [
+    "../common/base.json",
+    "../common/bundler.json",
+    "../common/references.json",
+    "../common/web.json",
+    "../common/webpack.json"
+  ],
+  "compilerOptions": {
+    "tsBuildInfoFile": "../../../../.tmp/moonlight.webpack.tsbuildinfo"
+  },
+  "include": [
+    "../../src/env/web.ts",
+    "../../../../../src/*/webpack/**/*"
+  ]
+}

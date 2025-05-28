@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig.json",
+  "extends": ["@ts-test/types/tsconfigs/extension"],
+  "references": [
+    { "path": "./node_modules/@ts-test/types/tsconfigs/extension/web.json" },
+    { "path": "./node_modules/@ts-test/types/tsconfigs/extension/webpack.json" },
+    { "path": "./node_modules/@ts-test/types/tsconfigs/extension/preload.json" },
+    { "path": "./node_modules/@ts-test/types/tsconfigs/extension/electron.json" }
+  ]
+}

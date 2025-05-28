@@ -1,0 +1,7 @@
+packages:
+  - packages/*
+
+catalogs:
+  prod:
+    typescript: ^5.8.3
+    "@types/node": ^20.17.50

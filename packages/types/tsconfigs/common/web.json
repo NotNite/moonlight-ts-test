@@ -1,0 +1,10 @@
+{
+  // Chrome 128
+  "$schema": "https://json.schemastore.org/tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2023", // https://caniuse.com/sr_es14
+    "lib": ["ES2023", "DOM", "DOM.Iterable", "DOM.AsyncIterable"], // https://github.com/microsoft/TypeScript/blob/b504a1eed45e35b5f54694a1e0a09f35d0a5663c/src/lib/es2023.full.d.ts
+    "module": "ESNext",
+    "moduleResolution": "bundler"
+  }
+}

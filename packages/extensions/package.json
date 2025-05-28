@@ -1,0 +1,8 @@
+{
+  "name": "@ts-test/extensions",
+  "private": true,
+  "devDependencies": {
+    "typescript": "catalog:prod",
+    "@ts-test/types": "workspace:*"
+  }
+}

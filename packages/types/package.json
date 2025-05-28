@@ -1,0 +1,15 @@
+{
+  "name": "@ts-test/types",
+  "private": true,
+  "exports": {
+    "./env/*": "./src/env/*.ts",
+    "./tsconfigs/*": "./tsconfigs/*.json"
+  },
+  "files": [
+    "tsconfigs"
+  ],
+  "devDependencies": {
+    "@types/node": "catalog:prod",
+    "typescript": "catalog:prod"
+  }
+}
