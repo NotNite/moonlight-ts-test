@@ -4,8 +4,8 @@
     "noEmit": true,
 
     // See README for details
-    "rootDir": "../../../../../../../../..",
-    "baseUrl": "../../../../../../../../..",
+    "rootDir": "../../../../..",
+    "baseUrl": "../../../../..",
 
     // Do not import all @types/* packages by default
     "types": []

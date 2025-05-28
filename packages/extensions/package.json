@@ -4,5 +4,8 @@
   "devDependencies": {
     "typescript": "catalog:prod",
     "@ts-test/types": "workspace:*"
+  },
+  "scripts": {
+    "check": "tsc --build"
   }
 }
